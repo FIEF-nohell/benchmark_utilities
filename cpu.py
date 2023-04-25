@@ -52,7 +52,7 @@ def multi_core_benchmark(n):
 
 if __name__ == "__main__":
     system_info = sys_info()
-    bench_depth = 5000
+    bench_depth = 7000
     print(f"{Color.CYAN}\n-------------------------------------------\n")
     print(f"{system_info[2]}")
     print(f"Operating with {system_info[1]} Cores and {system_info[0]} Threads\n{Color.GREEN}")
