@@ -58,6 +58,6 @@ if __name__ == "__main__":
     print(f"{Color.GREEN}")
 
     bandwidth = memory_bandwidth_benchmark(size_mb, num_iterations)
-    print(f"RAM bandwidth: {bandwidth:.2f} GB/s")
+    print(f"\n{Color.RED}RAM bandwidth: {bandwidth:.2f} GB/s")
 
     print(f"{Color.CYAN}\n-------------------------------------------{Color.RESET}\n")

@@ -65,6 +65,6 @@ if __name__ == "__main__":
 
     print(f"\n{Color.RED}Single-core Score: {((bench_depth/system_info[0])/single_core_time):.2f}")
     print(f"Multi-core Score: {(bench_depth/multi_core_time):.2f}")
-    print("units in sequences/sec | more is better")
+    print(f"{Color.CYAN}units in sequences/sec | more is better")
 
     print(f"{Color.CYAN}\n-------------------------------------------{Color.RESET}\n")
